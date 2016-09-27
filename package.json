@@ -1,6 +1,6 @@
 {
   "name"        : "speakws",
-  "version"     : "0.0.1",
+  "version"     : "1.0.0",
 
   "scripts": {
     "start"     : "node server.js",
@@ -8,13 +8,10 @@
   },
 
   "dependencies" : {
-    "express"   : "*",
-    "socket.io" : "0.9.x",
-    "bower" : "~1.7.1"
+    "express"   : "*"
   },
 
   "engines": {
-    "node" : ">=0.8", 
-    "npm": "2.14.x"
+    "node" : ">=0.8"
   }
 }
