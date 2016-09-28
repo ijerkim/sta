@@ -1,20 +1,26 @@
 {
-  "name"        : "speakws",
-  "version"     : "1.0.1",
-
-  "scripts": {
-    "start"     : "node server.js",
-    "postinstall":"bower install"
-  },
-
-  "dependencies" : {
-    "express"   : "*",
-    "socket.io" : "0.9.x",
-    "bower" : "1.7.1"
-  },
-
+  "name": "speakws",
+  "version": "0.2.5",
+  "description": "Test - A",
   "engines": {
-    "node" : ">=0.8", 
-    "npm": "*"
-  }
+    "node": "6.4.0"
+  },
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "ejs": "2.4.1",
+    "express": "4.13.4"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ijerkim/sta"
+  },
+  "keywords": [
+    "node",
+    "heroku",
+    "express"
+  ],
+  "license": "MIT"
 }
